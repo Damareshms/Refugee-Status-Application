@@ -6,7 +6,7 @@ The system implements a simple menu-driven interface that supports Create, Read,
 
 -Create Application: Add new applications with unique IDs and applicant details. -Read Application: Retrieve application details by ID. -Update Application: Modify existing application data. -Delete Application: Remove applications from the system. -Process Refugee Status: Update application status to processed. -Audit Application Integrity: Perform integrity checks on applications and log results.
 
-Data Structures
+ ##Data Structures
 
 applications: A dictionary to store application details, where each application is indexed by its unique ID. Each application includes:
 
@@ -15,7 +15,7 @@ status: Current status of the application (e.g., pending, processed).
 integrity_checked: Boolean indicating if the integrity of the application has been checked.
 integrity_audit_log: A dictionary to log the results of integrity audits for each application, indexed by a unique integrity ID.
 
-Usage
+##Usage
 
 To run the program, ensure you have Python installed. You can execute the script directly. The program will present a menu for interaction.
 
@@ -33,7 +33,7 @@ Exit: Exit the program.
 
 Example
 
-Menu:
+##Menu:
 
 1. Create Application
 2. Read Application
